@@ -18,7 +18,7 @@ def start_download():
             base, ext = os.path.splitext(out_file)
             new_name = base + ".mp3"
             os.rename(out_file, new_name)
-            finish_label.configure(text="Download Completed!", text_color="green") 
+            finish_label.configure(text="Download Completed!", font=("Arial", 15, "bold"), text_color="green") 
             
         if check_var_video.get() == "on":
             video = yt_object.streams.get_highest_resolution()
