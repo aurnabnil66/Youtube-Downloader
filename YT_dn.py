@@ -2,7 +2,6 @@ from tkinter import *
 from customtkinter import *
 from pytube import YouTube
 import os
-import time
 
 def start_download():
     try:
