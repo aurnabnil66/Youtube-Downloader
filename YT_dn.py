@@ -50,7 +50,7 @@ set_default_color_theme("blue")
 app = CTk()
 app.geometry("720x350")
 app.title("Youtube Downloader")
-app.iconbitmap("download.ico")   # always have to set .ico format images
+app.iconbitmap("app_icon.ico")   # always have to set .ico format images
 
 # add UI elements
 title = CTkLabel(app, text="Insert a Youtube Link", font=("Arial", 20, "bold"))
